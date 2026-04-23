@@ -17,7 +17,6 @@ export function Hero() {
         <div className="absolute inset-0 bg-primary/75 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/50 to-background" />
       </div>
-
       <div className="container relative z-10 mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -34,9 +33,7 @@ export function Hero() {
             Standard Kids <br className="hidden md:block" /> Academy
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 font-medium max-w-2xl mx-auto drop-shadow-sm">
-            Nurturing Minds, Building Futures
-          </p>
+          <p className="text-xl md:text-2xl text-white/90 font-medium max-w-2xl mx-auto drop-shadow-sm">Achieving High Standards </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 pt-8 w-full sm:w-auto">
             <Button asChild size="lg" className="w-full sm:w-auto bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-full text-lg h-14 px-8 shadow-xl">
