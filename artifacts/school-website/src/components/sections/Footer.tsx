@@ -1,6 +1,7 @@
 import React from "react";
-import { BookOpen, MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImg from "@assets/logo.jpeg";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,8 +13,8 @@ export function Footer() {
           
           <div className="space-y-6 lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 group">
-              <div className="bg-white text-primary p-2 rounded-lg flex items-center justify-center">
-                <BookOpen className="w-6 h-6" />
+              <div className="bg-white p-1 rounded-lg flex items-center justify-center overflow-hidden">
+                <img src={logoImg} alt="Standard Kids Academy logo" className="w-10 h-10 object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-xl leading-tight text-white">Standard Kids</span>
