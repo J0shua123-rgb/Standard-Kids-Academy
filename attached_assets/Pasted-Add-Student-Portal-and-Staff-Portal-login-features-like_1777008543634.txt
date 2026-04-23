@@ -1,0 +1,56 @@
+Add Student Portal and Staff Portal login features (like a school portal: assignments, e-library access, assessments/results, recorded lessons), integrated into my existing site.
+Requirements
+A) Authentication
+Add a login page/route: /login
+Users log in with username + password (or use existing login UI if present).
+Hash passwords with bcrypt.
+Use secure sessions via httpOnly cookies.
+Create middleware/guards to protect routes.
+B) Roles
+Implement roles:
+STUDENT
+STAFF
+ADMIN
+After login:
+STUDENT redirects to /student
+STAFF redirects to /staff
+ADMIN redirects to /admin
+C) New protected pages (minimal first version)
+Create these pages and make them look consistent with the current site theme/layout:
+Student
+/student (dashboard)
+/student/assignments (list)
+/student/library (e-library list)
+Staff
+/staff (dashboard)
+/staff/assignments (create assignment + view submissions)
+/staff/library (upload/manage library items)
+Admin
+/admin/users (create users, set role, reset password)
+D) Database (use what fits current project)
+If the project already has a DB, integrate with it.
+If not, add one (SQLite for simplest, or Postgres if already used).
+Create tables/models for:
+users (id, username, passwordHash, role, createdAt)
+assignments (id, title, instructions, dueDate, classOrGroup, createdBy)
+library_items (id, title, description, fileUrl, visibility)
+submissions (id, assignmentId, studentId, fileUrl, submittedAt)
+Add migrations (or schema file) and a seed script:
+1 admin, 1 staff, 2 students with known passwords printed in README.
+E) File uploads
+Allow staff to upload files for library items.
+Allow students to upload assignment submissions.
+Store files locally under something like /uploads and save file paths in DB.
+Validate file size/type.
+Important constraints
+Reuse my existing navbar/layout/styles.
+Don’t break existing pages.
+Keep changes isolated (new folders/modules) where possible.
+Output a short checklist of what files you changed/added and how to run migrations/seed.
+Deliverables
+1) Working login + logout  
+2) Working role-protected dashboards  
+3) Minimal CRUD for assignments + library  
+4) Seeded demo accounts  
+5) README updates with setup steps  
+Proceed to implement now.
