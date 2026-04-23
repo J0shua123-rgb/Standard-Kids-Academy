@@ -56,6 +56,12 @@ export function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href="/login"
+            className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+          >
+            Portal
+          </a>
           <Button asChild className="rounded-full shadow-md hover:shadow-lg transition-all" size="sm">
             <a href="#admissions">Apply Now</a>
           </Button>
@@ -85,6 +91,13 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
+            <a
+              href="/login"
+              className="text-base font-medium text-foreground p-2 hover:bg-muted rounded-md"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Portal Login
+            </a>
             <Button asChild className="w-full rounded-full" onClick={() => setMobileMenuOpen(false)}>
               <a href="#admissions">Apply Now</a>
             </Button>
