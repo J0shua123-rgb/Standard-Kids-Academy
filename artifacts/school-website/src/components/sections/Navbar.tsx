@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Menu, X, BookOpen } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImg from "@assets/logo.jpeg";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -33,9 +34,11 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="bg-primary text-primary-foreground p-2 rounded-lg flex items-center justify-center">
-            <BookOpen className="w-6 h-6" />
-          </div>
+          <img
+            src={logoImg}
+            alt="Standard Kids Academy logo"
+            className="w-10 h-10 rounded-lg object-cover"
+          />
           <div className="flex flex-col">
             <span className="font-bold text-xl leading-tight text-primary">Standard Kids</span>
             <span className="text-xs font-semibold text-secondary-foreground leading-none tracking-widest uppercase">Academy</span>
