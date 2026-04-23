@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "3u9A5PylsHa7vpgk-a9Xw"
+uri = "file://src/assets/hero.png"
+type = "image"
+title = "Hero African schoolchildren"
+
+[[generated]]
+id = "CZHr2DaUtHRk7UFPrdCFb"
+uri = "file://src/assets/about.png"
+type = "image"
+title = "Teacher and students classroom"
+
+[[generated]]
+id = "xRt4TRyC7IIkzAu-P-wno"
+uri = "file://src/assets/program-kg.png"
+type = "image"
+title = "Kindergarten play based learning"
+
+[[generated]]
+id = "6WfskHnsLOKfZ_sad59Jt"
+uri = "file://src/assets/program-primary.png"
+type = "image"
+title = "Primary school foundational academics"
+
+[[generated]]
+id = "oCwloyt9za-6f7-Iu1ZPl"
+uri = "file://src/assets/program-jhs.png"
+type = "image"
+title = "Junior High School BECE prep"
+
+[[generated]]
+id = "1TmHlOqgrYt_Lq0MzVS5X"
+uri = "file://src/assets/gallery-1.png"
+type = "image"
+title = "Students reading together"
+
+[[generated]]
+id = "7XX9aggZ16y6b1whPAYD4"
+uri = "file://src/assets/gallery-2.png"
+type = "image"
+title = "Classroom activity"
+
+[[generated]]
+id = "XVBuu4pEQGPeJpP657oxF"
+uri = "file://src/assets/gallery-3.png"
+type = "image"
+title = "School sports playing outdoors"
+
+[[generated]]
+id = "UD3trb8K1n-E2X3rRApR2"
+uri = "file://src/assets/gallery-4.png"
+type = "image"
+title = "Teacher at chalkboard"
+
+[[generated]]
+id = "lZeh3Yi0mzJ4t6rlBH_Yk"
+uri = "file://src/assets/gallery-5.png"
+type = "image"
+title = "School building exterior"
