@@ -19,7 +19,7 @@ To run this project locally:
 
 1. Clone the repo:
    ```bash
-](https://github.com/J0shua123-rgb/Standard-Kids-Academy.git)  
+(https://github.com/J0shua123-rgb/Standard-Kids-Academy.git)  
   ```
 2. Install dependencies:
    ```bash
