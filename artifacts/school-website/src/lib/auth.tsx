@@ -19,7 +19,7 @@ interface AuthContextValue {
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
-const API_BASE = "/api";
+const API_BASE = `${(import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "")}/api`;
 
 async function apiFetch(path: string, init?: RequestInit) {
   const res = await fetch(`${API_BASE}${path}`, {
