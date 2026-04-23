@@ -1,4 +1,4 @@
-# [Project Name]
+Standard Kids Academy 
 
 A brief description of what this project does. This project was built on **Replit** and is deployed via **Vercel**.
 
@@ -19,8 +19,8 @@ To run this project locally:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com
-   ```
+](https://github.com/J0shua123-rgb/Standard-Kids-Academy.git)  
+  ```
 2. Install dependencies:
    ```bash
    pnpm install
